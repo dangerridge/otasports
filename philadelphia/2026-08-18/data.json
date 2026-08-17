@@ -1,0 +1,32 @@
+{
+  "market": "Philadelphia",
+  "date": "2026-08-18",
+  "timezone": "America/New_York",
+  "verified_ota_events": [],
+  "excluded_non_ota_events": [
+    {
+      "time": "18:40",
+      "sport": "MLB",
+      "event": "Miami Marlins at Philadelphia Phillies",
+      "service": "NBC Sports Philadelphia"
+    },
+    {
+      "time": "19:00",
+      "sport": "WNBA",
+      "event": "Indiana Fever at Toronto Tempo",
+      "service": "ESPN"
+    },
+    {
+      "time": "20:05",
+      "sport": "MLB",
+      "event": "Chicago White Sox at Chicago Cubs",
+      "service": "TBS"
+    },
+    {
+      "time": "21:00",
+      "sport": "WNBA",
+      "event": "New York Liberty at Chicago Sky",
+      "service": "ESPN"
+    }
+  ]
+}
