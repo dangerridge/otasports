@@ -1,0 +1,6 @@
+<url><loc>https://otasports.info/new-york/</loc></url>
+<url><loc>https://otasports.info/new-york/2026-08-18/</loc></url>
+<url><loc>https://otasports.info/new-york/sports-on-tv-today/</loc></url>
+<url><loc>https://otasports.info/new-york/pro-wrestling-on-tv/</loc></url>
+<url><loc>https://otasports.info/new-york/channels/whtv-18-sports/</loc></url>
+<url><loc>https://otasports.info/new-york/channels/wliw-21-3-nhk-world/</loc></url>
