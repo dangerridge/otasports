@@ -1,6 +1,6 @@
 # otasports.info static site
 
-Plain HTML + CSS with one tiny vanilla JavaScript file (`assets/theme.js`) used only for the Day/Night mode button. All listings remain readable and crawlable with JavaScript disabled.
+Plain HTML + CSS. Each page contains a tiny inline Day/Night toggle so nested GitHub Pages paths cannot break the theme control. Listings remain readable and crawlable with JavaScript disabled.
 
 ## Changes in this build
 - New York linked from homepage.
@@ -13,3 +13,12 @@ Plain HTML + CSS with one tiny vanilla JavaScript file (`assets/theme.js`) used 
 - Existing evergreen wrestling URLs retained so old links do not break.
 
 Deploy the contents of this folder to the repository root.
+
+
+## Theme
+
+The day/night toggle is now self-contained in each HTML page. It does not depend on an external JavaScript asset; it stores the visitor preference when localStorage is available and still toggles if storage is blocked.
+
+## Editorial rule
+
+Do not list cable-only or streaming-only events. The public pages contain only OTA listings, OTA channels whose exact schedules are pending verification, and scan-coverage notes.
