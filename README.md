@@ -1,24 +1,15 @@
-# Philadelphia OTA Sports — August 18, 2026
+# otasports.info static site
 
-Plain static HTML/CSS. No JavaScript.
+Plain HTML + CSS with one tiny vanilla JavaScript file (`assets/theme.js`) used only for the Day/Night mode button. All listings remain readable and crawlable with JavaScript disabled.
 
-## Deploy to GitHub Pages
+## Changes in this build
+- New York linked from homepage.
+- Philadelphia and New York daily pages use one overall OTA listing.
+- Wrestling, sumo and odd/hidden-gem programming are no longer split into separate daily sections.
+- Visible source sections removed from daily pages.
+- Day/Night mode added and remembered in localStorage.
+- Philadelphia canonicals corrected from example.com to otasports.info.
+- WDUM-LD 41.5 Fubo Sports Network given a Philadelphia channel page.
+- Existing evergreen wrestling URLs retained so old links do not break.
 
-1. Create a new GitHub repository.
-2. Upload the contents of this folder to the repository root.
-3. Commit to `main`.
-4. Open **Settings → Pages**.
-5. Choose **Deploy from a branch**.
-6. Select `main` and `/ (root)`.
-7. Save.
-
-`.nojekyll` is included.
-
-## Before using your own domain
-Search/replace `https://example.com` in all HTML files, `sitemap.xml`, and `robots.txt` with your public domain.
-
-## Content note
-The Aug. 18 advance scan found no live competitive event that could be strongly verified on a Philadelphia-area OTA station. The page deliberately lists major cable-only exclusions rather than falsely presenting them as antenna broadcasts.
-
-## Production
-The visitor-facing site can remain 100% HTML + CSS. A generator can replace the dated page, the current page, and the sitemap each morning.
+Deploy the contents of this folder to the repository root.
