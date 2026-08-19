@@ -4,59 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>OTA Sports | Free Over-the-Air Sports by TV Market</title>
-<meta name="description" content="Find live sports, wrestling, racing and hidden-gem broadcasts available free with an antenna in your local television market.">
+<meta name="description" content="Free over-the-air sports listings by local television market.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://otasports.info/">
-<link rel="stylesheet" href="assets/styles.css">
-<script>
-(function(){
-  var root=document.documentElement;
-  function systemTheme(){
-    return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
-  }
-  function activeTheme(){
-    return root.getAttribute('data-theme') || systemTheme();
-  }
-  function updateButton(){
-    var button=document.querySelector('[data-theme-toggle]');
-    if(!button) return;
-    var dark=activeTheme()==='dark';
-    button.textContent=dark ? 'Day mode' : 'Night mode';
-    button.setAttribute('aria-label', dark ? 'Switch to day mode' : 'Switch to night mode');
-    button.setAttribute('aria-pressed', dark ? 'true' : 'false');
-  }
-  function setTheme(mode,remember){
-    root.setAttribute('data-theme',mode);
-    if(remember){
-      try{ localStorage.setItem('otasports-theme',mode); }catch(e){}
-    }
-    updateButton();
-  }
-  try{
-    var saved=localStorage.getItem('otasports-theme');
-    if(saved==='light' || saved==='dark') root.setAttribute('data-theme',saved);
-  }catch(e){}
-  window.otaToggleTheme=function(){
-    setTheme(activeTheme()==='dark' ? 'light' : 'dark', true);
-  };
-  document.addEventListener('DOMContentLoaded',updateButton);
-})();
-</script>
-<meta property="og:type" content="website">
-<meta property="og:title" content="OTA Sports | Free Over-the-Air Sports by TV Market">
-<meta property="og:description" content="Find live sports, wrestling, racing and hidden-gem broadcasts available free with an antenna in your local television market.">
-<meta property="og:url" content="https://otasports.info/">
+<link rel="stylesheet" href="assets/site-20260818.css">
 </head>
 <body>
+<input class="theme-switch" type="checkbox" id="theme-switch" aria-label="Use dark mode">
+<div class="site">
 <header><div class="wrap">
-<div class="brandbar"><div class="brand"><h1><a href="index.html">OTA SPORTS</a></h1><small>Free antenna sports, market by market.</small></div><div class="controls"><button class="theme-toggle" type="button" data-theme-toggle onclick="otaToggleTheme()">Night mode</button></div></div>
+<div class="brandbar"><div class="brand"><h1><a href="index.html">OTA SPORTS</a></h1><small>Free antenna sports, market by market.</small></div><label class="theme-toggle" for="theme-switch"><span class="night">Night mode</span><span class="day">Day mode</span></label></div>
 <nav><a href="philadelphia/">Philadelphia</a><a href="new-york/">New York</a></nav>
 </div></header>
 
 <main class="wrap">
-<section class="hero"><div class="eyebrow">REGIONAL ANTENNA SPORTS DIRECTORY</div><h2>What sports can you watch free with an antenna?</h2><p class="lede">Market-specific listings that scan subchannels, independents and diginets instead of pretending television ends at the major networks.</p></section>
+<section class="hero"><div class="eyebrow">REGIONAL ANTENNA SPORTS DIRECTORY</div><h2>What sports are on antenna today?</h2><p class="lede">Local over-the-air sports listings organized by television market.</p></section>
 <section class="section"><h3>Markets</h3><div class="grid">
-<a class="card" href="philadelphia/"><h4>Philadelphia, PA</h4><p>Philadelphia-market OTA sports, including full-power stations, subchannels and low-power sports services.</p></a>
-<a class="card" href="new-york/"><h4>New York, NY</h4><p>New York-market OTA sports, including dedicated sports diginets, NHK World and low-power services.</p></a>
+<a class="card" href="philadelphia/"><h4>Philadelphia, PA</h4><p>Today's free over-the-air sports in the Philadelphia television market.</p></a>
+<a class="card" href="new-york/"><h4>New York, NY</h4><p>Today's free over-the-air sports in the New York television market.</p></a>
 </div></section>
-</main><footer><div class="wrap">Over-the-air sports listings only. Local carriage, reception and schedules can change.</div></footer></body></html>
+</main><footer><div class="wrap">Over-the-air sports listings only. Local schedules can change.</div></footer>
+</div>
+</body></html>
