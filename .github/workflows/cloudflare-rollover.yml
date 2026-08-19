@@ -1,0 +1,22 @@
+name: Trigger Cloudflare midnight rebuild
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 0 * * *"
+      timezone: "America/New_York"
+    - cron: "9 0 * * *"
+      timezone: "America/Chicago"
+    - cron: "11 0 * * *"
+      timezone: "America/Los_Angeles"
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy
+        env:
+          DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+        run: |
+          test -n "$DEPLOY_HOOK"
+          curl --fail --show-error --silent --request POST "$DEPLOY_HOOK"
