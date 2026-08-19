@@ -1,0 +1,18 @@
+{
+  "market": "New York",
+  "date": "2026-08-19",
+  "timezone": "America/New_York",
+  "ota_events": [
+    {
+      "start": "5:50 PM",
+      "end": "8:00 PM",
+      "status": "LIVE",
+      "sport": "Soccer",
+      "event": "Coquimbo Unido vs. CA Platense",
+      "detail": "Copa Libertadores \u00b7 Round of 16, second leg. Low-power OTA signal; reception varies by location.",
+      "station": "WHTV-LD 18.16",
+      "network": "beIN Sports Xtra",
+      "rf": "RF 31"
+    }
+  ]
+}
