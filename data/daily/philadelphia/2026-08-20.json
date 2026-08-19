@@ -1,0 +1,19 @@
+{
+  "market": "Philadelphia",
+  "slug": "philadelphia",
+  "date": "2026-08-20",
+  "timezone": "America/New_York",
+  "time_label": "Eastern Time",
+  "events": [
+    {
+      "start": "6:30 PM",
+      "end": "7:00 PM",
+      "status": "CURRENT WEEKDAY EPISODE",
+      "sport": "Philadelphia sports talk",
+      "event": "The Phantastic Sports Show",
+      "detail": "Local Philadelphia sports discussion and news.",
+      "station": "WTXF-TV 29.1",
+      "network": "FOX29"
+    }
+  ]
+}

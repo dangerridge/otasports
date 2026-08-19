@@ -1,0 +1,28 @@
+{
+  "market": "Dallas–Fort Worth",
+  "slug": "dallas-fort-worth",
+  "date": "2026-08-20",
+  "timezone": "America/Chicago",
+  "time_label": "Central Time",
+  "events": [
+    {
+      "start": "7:00 PM",
+      "status": "LIVE",
+      "sport": "WNBA basketball",
+      "event": "Indiana Fever at Dallas Wings",
+      "detail": "WNBA regular season · American Airlines Center.",
+      "station": "KFAA-TV 29.1",
+      "network": "KFAA"
+    },
+    {
+      "start": "10:30 PM",
+      "end": "11:00 PM",
+      "status": "CURRENT WEEKDAY EPISODE",
+      "sport": "Dallas–Fort Worth sports talk",
+      "event": "Free 4 All",
+      "detail": "Local sports interviews, opinion and discussion.",
+      "station": "KDFW-TV 4.1",
+      "network": "FOX4"
+    }
+  ]
+}

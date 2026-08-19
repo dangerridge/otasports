@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "card": "New York, NY",
+    "timezone": "America/New_York",
+    "time_label": "Eastern Time"
+  },
+  {
+    "slug": "los-angeles",
+    "name": "Los Angeles",
+    "card": "Los Angeles, CA",
+    "timezone": "America/Los_Angeles",
+    "time_label": "Pacific Time"
+  },
+  {
+    "slug": "chicago",
+    "name": "Chicago",
+    "card": "Chicago, IL",
+    "timezone": "America/Chicago",
+    "time_label": "Central Time"
+  },
+  {
+    "slug": "dallas-fort-worth",
+    "name": "Dallas–Fort Worth",
+    "card": "Dallas–Fort Worth, TX",
+    "timezone": "America/Chicago",
+    "time_label": "Central Time"
+  },
+  {
+    "slug": "philadelphia",
+    "name": "Philadelphia",
+    "card": "Philadelphia, PA",
+    "timezone": "America/New_York",
+    "time_label": "Eastern Time"
+  },
+  {
+    "slug": "houston",
+    "name": "Houston",
+    "card": "Houston, TX",
+    "timezone": "America/Chicago",
+    "time_label": "Central Time"
+  },
+  {
+    "slug": "atlanta",
+    "name": "Atlanta",
+    "card": "Atlanta, GA",
+    "timezone": "America/New_York",
+    "time_label": "Eastern Time"
+  },
+  {
+    "slug": "washington-dc",
+    "name": "Washington DC",
+    "card": "Washington, DC",
+    "timezone": "America/New_York",
+    "time_label": "Eastern Time"
+  },
+  {
+    "slug": "san-francisco-bay-area",
+    "name": "San Francisco Bay Area",
+    "card": "San Francisco Bay Area, CA",
+    "timezone": "America/Los_Angeles",
+    "time_label": "Pacific Time"
+  },
+  {
+    "slug": "boston",
+    "name": "Boston",
+    "card": "Boston, MA",
+    "timezone": "America/New_York",
+    "time_label": "Eastern Time"
+  },
+  {
+    "slug": "toronto",
+    "name": "Toronto",
+    "card": "Toronto, ON",
+    "timezone": "America/Toronto",
+    "time_label": "Eastern Time"
+  }
+]

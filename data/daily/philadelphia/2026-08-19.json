@@ -1,0 +1,39 @@
+{
+  "market": "Philadelphia",
+  "slug": "philadelphia",
+  "date": "2026-08-19",
+  "timezone": "America/New_York",
+  "time_label": "Eastern Time",
+  "events": [
+    {
+      "start": "6:00 PM",
+      "end": "6:30 PM",
+      "status": "PRERECORDED / CURRENT EPISODE",
+      "sport": "Women's sports magazine / highlights",
+      "event": "Ganadoras",
+      "detail": "Women's sports series covering teams, competitions, interviews, previews and highlights. Low-power OTA; Collegeville reception varies.",
+      "station": "WPSJ-CD 8.2",
+      "network": "LATV"
+    },
+    {
+      "start": "6:00 PM",
+      "end": "9:00 PM",
+      "status": "REPLAY / PRERECORDED",
+      "sport": "Poker",
+      "event": "World Poker Tour",
+      "detail": "Three consecutive one-hour WPT blocks. Low-power OTA; Collegeville reception varies.",
+      "station": "WDUM-LD 41.5",
+      "network": "Fubo Sports Network"
+    },
+    {
+      "start": "6:30 PM",
+      "end": "7:00 PM",
+      "status": "NEW",
+      "sport": "Philadelphia sports talk",
+      "event": "The Phantastic Sports Show",
+      "detail": "Local Philadelphia sports discussion and news.",
+      "station": "WTXF-TV 29.1",
+      "network": "FOX29"
+    }
+  ]
+}

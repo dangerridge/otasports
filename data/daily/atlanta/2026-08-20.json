@@ -1,0 +1,37 @@
+{
+  "market": "Atlanta",
+  "slug": "atlanta",
+  "date": "2026-08-20",
+  "timezone": "America/New_York",
+  "time_label": "Eastern Time",
+  "events": [
+    {
+      "start": "4:30 PM",
+      "status": "LIVE",
+      "sport": "High school football",
+      "event": "Centennial vs. Dunwoody",
+      "detail": "Corky Kell + Dave Hunter Classic at Blessed Trinity High School.",
+      "station": "WANF 46.1 / WPCH 17.2",
+      "network": "Atlanta News First / Peachtree Sports Network"
+    },
+    {
+      "start": "7:30 PM",
+      "status": "LIVE",
+      "sport": "High school football",
+      "event": "Decatur vs. Blessed Trinity",
+      "detail": "Corky Kell + Dave Hunter Classic at Blessed Trinity High School.",
+      "station": "WANF 46.1 / WPCH 17.2",
+      "network": "Atlanta News First / Peachtree Sports Network"
+    },
+    {
+      "start": "11:35 PM",
+      "end": "12:00 AM",
+      "status": "CURRENT WEEKDAY EPISODE",
+      "sport": "Atlanta sports recap",
+      "event": "Sports Overtime",
+      "detail": "Local coverage of the Braves, Falcons, Hawks, high school sports and other Atlanta teams.",
+      "station": "WANF 46.1",
+      "network": "Atlanta News First"
+    }
+  ]
+}
