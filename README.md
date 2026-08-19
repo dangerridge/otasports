@@ -2,17 +2,15 @@
 
 Static HTML/CSS site for https://otasports.info/
 
-## Current daily pages
-- Philadelphia: Wednesday, August 19, 2026
-- New York: Wednesday, August 19, 2026
-
-## Editorial rules
-- OTA broadcasts only.
-- No cable or streaming-only information.
-- One chronological listing per market.
-- Wrestling, sumo, racing, unusual sports, etc. appear only when actually airing OTA that day.
-- No public source/reference sections.
-- Previous dated pages remain archived.
+## SEO behavior
+- The actual page topic is the single H1; the OTA SPORTS brand is no longer an H1.
+- `/sports-on-tv-today/` pages stay indexable every day.
+- Empty dated archive pages use `noindex,follow`.
+- Empty dated pages are omitted from `sitemap.xml`.
+- Dated pages with verified OTA events remain indexable and are included in the sitemap.
+- Each market has an `/archive/` page.
+- Dated pages have previous/next/archive navigation.
+- No cable information or public source/reference sections.
 
 ## Deploy
-Upload the contents of this folder to the GitHub Pages repository root and commit.
+Replace the repository contents with this folder and push to GitHub Pages.

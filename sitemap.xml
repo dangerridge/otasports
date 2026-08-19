@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://otasports.info/</loc></url>
-  <url><loc>https://otasports.info/philadelphia/</loc></url>
-  <url><loc>https://otasports.info/philadelphia/2026-08-18/</loc></url>
-  <url><loc>https://otasports.info/philadelphia/2026-08-19/</loc></url>
-  <url><loc>https://otasports.info/philadelphia/sports-on-tv-today/</loc></url>
-  <url><loc>https://otasports.info/new-york/</loc></url>
-  <url><loc>https://otasports.info/new-york/2026-08-18/</loc></url>
-  <url><loc>https://otasports.info/new-york/2026-08-19/</loc></url>
-  <url><loc>https://otasports.info/new-york/sports-on-tv-today/</loc></url>
+  <url><loc>https://otasports.info/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/philadelphia/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/philadelphia/sports-on-tv-today/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/philadelphia/archive/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/new-york/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/new-york/sports-on-tv-today/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/new-york/archive/</loc><lastmod>2026-08-18</lastmod></url>
+  <url><loc>https://otasports.info/new-york/2026-08-19/</loc><lastmod>2026-08-18</lastmod></url>
 </urlset>
